@@ -5,19 +5,13 @@
     line-height: 150%;
 }
 
-.logo{
-    padding-top: 10px;
-    margin-left: 10px;
-    width: 10%;
-}
-
 main{
     display: flex;
     margin-bottom: 50px;
     margin-left: 80px;
 }
 
-.text-area{
+#text-area{
     border: none;
     text-transform: lowercase;
     margin-top: 10px;
@@ -31,11 +25,11 @@ main{
     color: #082600;
 }
 
-.text-area:focus{
+#text-area:focus{
     outline: none;
 }
 
-.encriptado{
+#encriptado{
     border: none;
     text-transform: lowercase;
     margin-top: 10px;
@@ -46,21 +40,21 @@ main{
     transition: 0.5s all;
 }
 
-.encriptado:focus{
+#encriptado:focus{
     outline: none;
 }
 
-.informacion{
+#informacion{
     color: #082600;
     font-size: 55%;
     display: inline-block;
 }
 
-.botones{
+#botones{
     display: flex;
 }
 
-.btn-encriptar{
+#btn-encriptar{
     background: #A2C699;
     border:none;
     color: #082600;
@@ -70,16 +64,16 @@ main{
     transition: 0.5s all;
 }
 
-.btn-encriptar:hover{
+#btn-encriptar:hover{
     color: white;
 }
 
-.btn-encriptar:active{
+#btn-encriptar:active{
     background: #AA7D5F;
     transition: 0s;
 }
 
-.btn-desencriptar{
+#btn-desencriptar{
     background: #A2C699;
     border: none;
     color: #082600;
@@ -90,18 +84,18 @@ main{
     transition: 0.5s all;
 }
 
-.btn-desencriptar:hover{
+#btn-desencriptar:hover{
     background: #A2C699;
     color: white;
     border: none;   
 }
 
-.btn-desencriptar:active{
+#btn-desencriptar:active{
     background: #AA7D5F;
     transition: 0s;
 }
 
-.copiar{
+#copiar{
     margin-left: 50%;
     background: #A2C699;
     color: #082600;
@@ -109,16 +103,17 @@ main{
     margin-top: 13%;
     border-radius: 10px;
     transition: 0.5s all;
+    display: none;
 }
 
-.copiar:hover{
+#copiar:hover{
     background: #A2C699;
     color: white;
     border: none;
     cursor: pointer;
 }
 
-.copiar:active{
+#copiar:active{
     background: #AA7D5F;
     transition: 0s;
 }
